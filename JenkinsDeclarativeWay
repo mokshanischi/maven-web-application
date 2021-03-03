@@ -31,7 +31,7 @@ options{
    {
     steps{
 	  sh "mvn clean package"
-	 }
+      }
    }
    
     stage('ExecuteSonarQubeReport')
